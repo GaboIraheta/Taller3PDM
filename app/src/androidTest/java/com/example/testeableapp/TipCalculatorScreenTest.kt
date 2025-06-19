@@ -64,6 +64,8 @@ class TipCalculatorScreenTest {
         // Se agrega un monto inicial
         composeTestRule.onNodeWithText("Monto de la cuenta").performTextInput("100")
 
+        composeTestRule.onNodeWithText("Propina: $15.00")
+
         // Se mueve el slider hasta llegar a 18%
         composeTestRule.onNodeWithTag("TipSlider").performTouchInput {
             val sliderWidth = width
