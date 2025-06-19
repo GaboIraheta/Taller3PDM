@@ -25,15 +25,20 @@ class TipCalculatorScreenTestAditionals {
         composeTestRule.onNodeWithText("1").assertExists()
     }
 
-    // Verifica que el total por persona se actualiza correctamente al cambiar el número de personas
     @Test
     fun testTotalPorPersonaActualizaCorrectamente() {
         composeTestRule.setContent {
             TipCalculatorScreen()
         }
 
-        composeTestRule.onNodeWithText("Monto de la cuenta").performTextInput("100")
-        composeTestRule.onNodeWithText("+").performClick()
-        composeTestRule.onNodeWithText("Total por persona: \$57.50").assertExists()
+        composeTestRule.onNodeWithTag("inputMonto").performTextInput("100")
+        composeTestRule.onNodeWithTag("btnMas").performClick()
+
+        // Esperar a que Compose se estabilice
+        composeTestRule.waitForIdle()
+
+        composeTestRule.onNodeWithTag("txtTotalPorPersona")
+            .assertTextContains("Total por persona: $57.50")
     }
+
 }
