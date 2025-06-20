@@ -5,6 +5,7 @@
       <SelectionState runConfigName="TesteableApp.app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+<<<<<<< HEAD
       <SelectionState runConfigName="testRoundUpChangesTip()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
@@ -12,6 +13,15 @@
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="TipCalculatorScreenTest">
+=======
+      <SelectionState runConfigName="TipCalculatorScreenTestAditionals">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="testNoDisminuirPersonasPorDebajoDeUno()">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="testTotalPorPersonaActualizaCorrectamente()">
+>>>>>>> feature/ui-aditionals
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

@@ -3,39 +3,62 @@
   <component name="AndroidTestResultsUserPreferences">
     <option name="androidTestResultsTableState">
       <map>
+<<<<<<< HEAD
         <entry key="-1926841741">
+=======
+        <entry key="-495168169">
+>>>>>>> feature/ui-aditionals
           <value>
             <AndroidTestResultsTableState>
               <option name="preferredColumnWidths">
                 <map>
                   <entry key="Duration" value="90" />
+<<<<<<< HEAD
                   <entry key="Medium_Phone_API_36" value="120" />
+=======
+                  <entry key="HUAWEI MRD-LX3" value="120" />
+>>>>>>> feature/ui-aditionals
                   <entry key="Tests" value="360" />
                 </map>
               </option>
             </AndroidTestResultsTableState>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="-778722664">
+=======
+        <entry key="279860393">
+>>>>>>> feature/ui-aditionals
           <value>
             <AndroidTestResultsTableState>
               <option name="preferredColumnWidths">
                 <map>
                   <entry key="Duration" value="90" />
+<<<<<<< HEAD
                   <entry key="Medium_Phone_API_36" value="120" />
+=======
+                  <entry key="HUAWEI MRD-LX3" value="120" />
+>>>>>>> feature/ui-aditionals
                   <entry key="Tests" value="360" />
                 </map>
               </option>
             </AndroidTestResultsTableState>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="689279429">
+=======
+        <entry key="432749377">
+>>>>>>> feature/ui-aditionals
           <value>
             <AndroidTestResultsTableState>
               <option name="preferredColumnWidths">
                 <map>
                   <entry key="Duration" value="90" />
+<<<<<<< HEAD
                   <entry key="Medium_Phone_API_36" value="120" />
+=======
+>>>>>>> feature/ui-aditionals
                   <entry key="Tests" value="360" />
                 </map>
               </option>
