@@ -21,6 +21,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -58,17 +59,22 @@ fun TipCalculatorScreen() {
             modifier = Modifier.fillMaxWidth()
         )
 
-        Text("Porcentaje de propina: $tipPercentage%")
+        Text(
+            "Porcentaje de propina: $tipPercentage%",
+            modifier = Modifier.testTag("TipPercentageText")
+        )
         Slider(
             value = tipPercentage.toFloat(),
             onValueChange = { tipPercentage = it.toInt() },
             valueRange = 0f..50f,
             steps = 49,
-            modifier = Modifier.fillMaxWidth()
+            modifier = Modifier
+                .fillMaxWidth()
+                .testTag("TipSlider")
         )
 
         Text("Número de personas: $numberOfPeople")
-        Row (
+        Row(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween,
             modifier = Modifier.fillMaxWidth()
